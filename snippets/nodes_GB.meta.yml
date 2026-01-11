@@ -1,47 +1,39 @@
 proxies:
-- name: GB1｜商宽｜非常安全
-  password: 881c153c-cf33-4bfc-b7ff-4a90163c160f
-  port: 27200
-  server: hl.kaixincloud.top
-  skip-cert-verify: true
-  sni: hl.kaixincloud.top
-  tls: false
-  type: hysteria2
-- name: GB7｜商宽｜非常安全
-  password: 5d3ada4e-7211-4897-ba4e-11eb60f10a00
-  port: 27200
-  server: hl.kaixincloud.top
-  skip-cert-verify: true
-  sni: hl.kaixincloud.top
-  tls: false
-  type: hysteria2
-- name: GB3｜机房｜低风险
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21814
+- name: GB1｜机房｜低风险
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21720
   server: fq-uk.mxtn.net
   skip-cert-verify: true
   sni: fq-uk.mxtn.net
   tls: false
   type: hysteria2
-- name: GB4｜商宽｜非常安全
-  password: 001f6d6b-6305-408d-a2ce-2f73c613df40
-  port: 27200
-  server: hl.kaixincloud.top
-  skip-cert-verify: true
-  sni: hl.kaixincloud.top
-  tls: false
-  type: hysteria2
-- name: GB9｜机房｜低风险
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21929
+- name: GB2｜机房｜低风险
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21880
   server: fq-uk.mxtn.net
   skip-cert-verify: true
   sni: fq-uk.mxtn.net
   tls: false
   type: hysteria2
-- name: GB10｜机房｜低风险
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21732
+- name: GB11｜商宽｜非常安全
+  password: dongtaiwang.com
+  port: 33550
+  server: 89.144.35.25
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
+- name: GB12｜机房｜低风险
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21521
+  server: fq-uk.mxtn.net
+  skip-cert-verify: true
+  sni: fq-uk.mxtn.net
+  tls: false
+  type: hysteria2
+- name: GB13｜机房｜低风险
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21415
   server: fq-uk.mxtn.net
   skip-cert-verify: true
   sni: fq-uk.mxtn.net

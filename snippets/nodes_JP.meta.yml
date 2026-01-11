@@ -1,7 +1,15 @@
 proxies:
+- name: JP1｜家宽｜非常安全
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21930
+  server: fq-jp.mxtn.net
+  skip-cert-verify: true
+  sni: fq-jp.mxtn.net
+  tls: false
+  type: hysteria2
 - name: JP2｜家宽｜非常安全
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21142
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21597
   server: fq-jp.mxtn.net
   skip-cert-verify: true
   sni: fq-jp.mxtn.net
@@ -9,32 +17,35 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: JP5｜机房｜低风险
-  network: ws
-  port: '443'
-  server: tokyo01.zgjok.com
-  servername: tokyo01.zgjok.com
-  tls: true
+  name: JP3｜原生/疑似家宽｜非常安全
+  network: tcp
+  port: '47083'
+  server: tunnel2.qqa678.com
+  tls: false
   type: vmess
-  uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
-  ws-opts:
-    headers:
-      Host: tokyo01.zgjok.com
-    path: /
-- name: JP8｜家宽｜非常安全
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21855
+  uuid: f66df097-93a0-43a1-b4c7-586e13f61f46
+- name: JP10｜家宽｜非常安全
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21583
   server: fq-jp.mxtn.net
   skip-cert-verify: true
   sni: fq-jp.mxtn.net
   tls: false
   type: hysteria2
-- name: JP9｜家宽｜非常安全
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21458
+- name: JP11｜家宽｜非常安全
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21379
   server: fq-jp.mxtn.net
   skip-cert-verify: true
   sni: fq-jp.mxtn.net
+  tls: false
+  type: hysteria2
+- name: JP12｜机房｜低风险
+  password: b9de051e-90b0-4b46-81a0-680707ef15c7
+  port: 11451
+  server: hy2-hk1.dhh.moe
+  skip-cert-verify: true
+  sni: hy2ssl.dhh.moe
   tls: false
   type: hysteria2
 - name: 日本|@ripaojiedian

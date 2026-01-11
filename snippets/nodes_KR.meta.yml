@@ -1,21 +1,21 @@
 proxies:
-- name: KR3｜商宽｜非常安全
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21265
+- name: KR1｜商宽｜非常安全
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21044
   server: fq-kr.mxtn.net
   skip-cert-verify: true
   sni: fq-kr.mxtn.net
   tls: false
   type: hysteria2
-- name: KR4｜商宽｜非常安全
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21368
+- name: KR2｜商宽｜非常安全
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21848
   server: fq-kr.mxtn.net
   skip-cert-verify: true
   sni: fq-kr.mxtn.net
   tls: false
   type: hysteria2
-- name: KR5｜家宽｜高风险 (黑名单)
+- name: KR5｜家宽｜高风险 (代理/黑名单)
   port: 1090
   server: 121.169.46.116
   tls: false

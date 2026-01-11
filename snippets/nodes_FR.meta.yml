@@ -1,72 +1,63 @@
 proxies:
 - name: FR1｜机房｜低风险
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21018
-  server: fq-fr.mxtn.net
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21003
+  server: fq-de.mxtn.net
   skip-cert-verify: true
-  sni: fq-fr.mxtn.net
+  sni: fq-de.mxtn.net
   tls: false
   type: hysteria2
 - name: FR2｜机房｜低风险
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21627
-  server: fq-fr.mxtn.net
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21768
+  server: fq-de.mxtn.net
   skip-cert-verify: true
-  sni: fq-fr.mxtn.net
+  sni: fq-de.mxtn.net
   tls: false
   type: hysteria2
 - name: FR3｜机房｜低风险
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21149
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21047
   server: fq-fr.mxtn.net
   skip-cert-verify: true
   sni: fq-fr.mxtn.net
   tls: false
   type: hysteria2
 - name: FR4｜机房｜低风险
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21405
-  server: fq-de.mxtn.net
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21976
+  server: fq-fr.mxtn.net
   skip-cert-verify: true
-  sni: fq-de.mxtn.net
+  sni: fq-fr.mxtn.net
   tls: false
   type: hysteria2
-- alterId: 2
-  cipher: auto
-  name: FR5｜机房｜低风险
-  network: tcp
-  port: '30835'
-  server: v35.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: FR6｜机房｜低风险
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21266
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21918
   server: fq-de.mxtn.net
   skip-cert-verify: true
   sni: fq-de.mxtn.net
   tls: false
   type: hysteria2
 - name: FR7｜机房｜低风险
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21437
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21318
   server: fq-de.mxtn.net
   skip-cert-verify: true
   sni: fq-de.mxtn.net
   tls: false
   type: hysteria2
 - name: FR8｜机房｜低风险
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21557
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21180
   server: fq-fr.mxtn.net
   skip-cert-verify: true
   sni: fq-fr.mxtn.net
   tls: false
   type: hysteria2
 - name: FR9｜机房｜低风险
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21212
+  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
+  port: 21001
   server: fq-fr.mxtn.net
   skip-cert-verify: true
   sni: fq-fr.mxtn.net
