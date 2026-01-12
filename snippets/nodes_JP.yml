@@ -1,13 +1,48 @@
 proxies:
+- name: JP4｜机房｜低风险
+  password: 53d6503b-e420-4d85-a67f-4c8f9d00e48a
+  port: 41273
+  server: xiaozhu.gisorty.cn
+  skip-cert-verify: true
+  sni: xiaozhu.gisorty.cn
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: JP3｜原生/疑似家宽｜非常安全
+  name: JP5｜原生/疑似家宽｜非常安全
   network: tcp
-  port: '47083'
-  server: tunnel2.qqa678.com
+  port: '59503'
+  server: ffiw.owwoedu.com
   tls: false
   type: vmess
-  uuid: f66df097-93a0-43a1-b4c7-586e13f61f46
+  uuid: 172803a7-9e6e-44c7-9966-9883ae0584b1
+- name: JP7｜机房｜低风险
+  password: 99eec1a2-9d1d-4475-8dfa-db6effe71dde
+  port: 41273
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: JP12｜机房｜低风险
+  password: 469c8135-8aea-4c7f-8ec2-c5fdfa980b48
+  port: 443
+  server: tuntro003.instconn.com
+  skip-cert-verify: true
+  sni: login-staticjpc.jasmine-douyin.top
+  type: trojan
+- name: JP14｜机房｜低风险
+  password: 53d6503b-e420-4d85-a67f-4c8f9d00e48a
+  port: 41273
+  server: xiaozhu.gisorty.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+- name: JP15｜机房｜低风险
+  password: 99eec1a2-9d1d-4475-8dfa-db6effe71dde
+  port: 41273
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

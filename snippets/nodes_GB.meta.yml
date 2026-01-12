@@ -1,42 +1,10 @@
 proxies:
-- name: GB1｜机房｜低风险
-  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
-  port: 21720
-  server: fq-uk.mxtn.net
-  skip-cert-verify: true
-  sni: fq-uk.mxtn.net
-  tls: false
-  type: hysteria2
-- name: GB2｜机房｜低风险
-  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
-  port: 21880
-  server: fq-uk.mxtn.net
-  skip-cert-verify: true
-  sni: fq-uk.mxtn.net
-  tls: false
-  type: hysteria2
-- name: GB11｜商宽｜非常安全
+- name: GB2｜商宽｜非常安全
   password: dongtaiwang.com
   port: 33550
   server: 89.144.35.25
   skip-cert-verify: true
   sni: apple.com
-  tls: false
-  type: hysteria2
-- name: GB12｜机房｜低风险
-  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
-  port: 21521
-  server: fq-uk.mxtn.net
-  skip-cert-verify: true
-  sni: fq-uk.mxtn.net
-  tls: false
-  type: hysteria2
-- name: GB13｜机房｜低风险
-  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
-  port: 21415
-  server: fq-uk.mxtn.net
-  skip-cert-verify: true
-  sni: fq-uk.mxtn.net
   tls: false
   type: hysteria2
 - name: GB_speednode_0001

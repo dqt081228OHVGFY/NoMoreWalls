@@ -1,58 +1,41 @@
 proxies:
-- name: SG1｜家宽｜非常安全
-  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
-  port: 21442
-  server: fq-sg.mxtn.net
+- name: SG2｜原生/疑似家宽｜非常安全
+  password: bbf74118-a657-4dd6-acb2-454d9afb9b9c
+  port: 41277
+  server: xiaozhu.gisorty.cn
   skip-cert-verify: true
-  sni: fq-sg.mxtn.net
-  tls: false
-  type: hysteria2
-- name: SG2｜家宽｜非常安全
-  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
-  port: 21183
-  server: fq-sg.mxtn.net
-  skip-cert-verify: true
-  sni: fq-sg.mxtn.net
-  tls: false
-  type: hysteria2
-- name: SG3｜家宽｜非常安全
-  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
-  port: 21126
-  server: fq-sg.mxtn.net
-  skip-cert-verify: true
-  sni: fq-sg.mxtn.net
-  tls: false
-  type: hysteria2
-- name: SG4｜家宽｜非常安全
-  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
-  port: 21385
-  server: fq-sg.mxtn.net
-  skip-cert-verify: true
-  sni: fq-sg.mxtn.net
-  tls: false
-  type: hysteria2
-- name: SG5｜机房｜低风险
-  password: b9de051e-90b0-4b46-81a0-680707ef15c7
-  port: 11456
-  server: hy2-3.dhh.moe
-  skip-cert-verify: true
-  sni: ssl.dhhshouquan.top
-  tls: false
-  type: hysteria2
+  sni: xiaozhu.gisorty.cn
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: SG6｜机房｜低风险
-  network: ws
-  port: '443'
-  server: cf.090227.xyz
-  servername: sgal.dagrate.eu.org
-  tls: true
+  name: SG12｜原生/疑似家宽｜非常安全
+  network: tcp
+  port: '49310'
+  server: cees.owwoedu.com
+  tls: false
   type: vmess
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  ws-opts:
-    headers:
-      Host: sgal.dagrate.eu.org
-    path: /
+  uuid: b3a6a516-6ba8-403d-9839-f95c5d40ea01
+- name: SG9｜原生/疑似家宽｜非常安全
+  password: ee958685-0dd5-43c8-ad67-ec318ad69a81
+  port: 41277
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: SG11｜原生/疑似家宽｜非常安全
+  password: bbf74118-a657-4dd6-acb2-454d9afb9b9c
+  port: 41277
+  server: xiaozhu.gisorty.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+- name: SG13｜原生/疑似家宽｜非常安全
+  password: ee958685-0dd5-43c8-ad67-ec318ad69a81
+  port: 41277
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad

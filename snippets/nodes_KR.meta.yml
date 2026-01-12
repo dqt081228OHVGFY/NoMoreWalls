@@ -1,21 +1,12 @@
 proxies:
-- name: KR1｜商宽｜非常安全
-  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
-  port: 21044
-  server: fq-kr.mxtn.net
+- name: KR1｜机房｜低风险
+  password: c7bbf76b-38e5-4954-b270-d8b91a773679
+  port: 49214
+  server: xiaozhu.gisorty.cn
   skip-cert-verify: true
-  sni: fq-kr.mxtn.net
-  tls: false
-  type: hysteria2
-- name: KR2｜商宽｜非常安全
-  password: 61800eb2-9603-4b96-a3ac-2f7154f66731
-  port: 21848
-  server: fq-kr.mxtn.net
-  skip-cert-verify: true
-  sni: fq-kr.mxtn.net
-  tls: false
-  type: hysteria2
-- name: KR5｜家宽｜高风险 (代理/黑名单)
+  sni: xiaozhu.gisorty.cn
+  type: trojan
+- name: KR2｜家宽｜高风险 (代理/黑名单)
   port: 1090
   server: 121.169.46.116
   tls: false
@@ -23,13 +14,20 @@ proxies:
   username: Og%3D%3D
 - alterId: 0
   cipher: auto
-  name: KR12｜机房｜低风险
+  name: KR8｜机房｜低风险
   network: tcp
   port: '80'
   server: 152.70.92.69
   tls: false
   type: vmess
   uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- name: KR9｜机房｜低风险
+  password: c7bbf76b-38e5-4954-b270-d8b91a773679
+  port: 49214
+  server: xiaozhu.gisorty.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
 - cipher: aes-256-cfb
   name: 🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
