@@ -1,42 +1,51 @@
 proxies:
-- name: DE68｜原生/疑似家宽｜高风险 (黑名单)
-  port: 1080
-  server: 193.233.254.7
-  tls: false
-  type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-- alterId: 0
-  cipher: auto
-  name: DE72｜机房｜低风险
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: DE73｜机房｜低风险
+- name: DE63｜机房｜低风险
   network: ws
-  password: 6a940633-9d92-4f80-b635-75b4a45962c2
+  password: af37ba63-6b2e-4e24-b17d-bd75a3160680
   port: 2087
   server: bestcdn2.868863.xyz
   skip-cert-verify: true
-  sni: 17682226005931.206353.xyz
+  sni: 17683099008736.206353.xyz
   type: trojan
   ws-opts:
     headers:
-      Host: 17682226007974.206353.xyz
+      Host: 17683099008452.206353.xyz
     path: '%2Fagrbniuh'
-- name: DE74｜机房｜低风险
+- name: DE64｜机房｜低风险
   network: ws
-  password: 6a940633-9d92-4f80-b635-75b4a45962c2
+  password: af37ba63-6b2e-4e24-b17d-bd75a3160680
+  port: 2083
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17683099006186.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17683099004938.206353.xyz
+    path: '%2Fagrbniuh'
+- name: DE65｜机房｜低风险
+  network: ws
+  password: af37ba63-6b2e-4e24-b17d-bd75a3160680
   port: 8443
   server: bestcdn4.868863.xyz
   skip-cert-verify: true
-  sni: 17682226009316.206353.xyz
+  sni: 17683099009008.206353.xyz
   type: trojan
   ws-opts:
     headers:
-      Host: 17682226002971.206353.xyz
+      Host: 17683099009483.206353.xyz
+    path: '%2Fagrbniuh'
+- name: DE66｜机房｜低风险
+  network: ws
+  password: af37ba63-6b2e-4e24-b17d-bd75a3160680
+  port: 2053
+  server: bestcdn5.868863.xyz
+  skip-cert-verify: true
+  sni: 17683099002673.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17683099006519.206353.xyz
     path: '%2Fagrbniuh'
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1

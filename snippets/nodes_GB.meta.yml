@@ -1,12 +1,4 @@
 proxies:
-- name: GB2｜商宽｜非常安全
-  password: dongtaiwang.com
-  port: 33550
-  server: 89.144.35.25
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
 - name: GB_speednode_0008
   network: ws
   port: 2053

@@ -1,33 +1,13 @@
 proxies:
-- name: KR1｜机房｜低风险
-  password: c7bbf76b-38e5-4954-b270-d8b91a773679
-  port: 49214
-  server: xiaozhu.gisorty.cn
-  skip-cert-verify: true
-  sni: xiaozhu.gisorty.cn
-  type: trojan
-- name: KR2｜家宽｜高风险 (代理/黑名单)
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  username: Og%3D%3D
 - alterId: 0
   cipher: auto
-  name: KR8｜机房｜低风险
+  name: KR7｜机房｜低风险
   network: tcp
   port: '80'
   server: 152.70.92.69
   tls: false
   type: vmess
   uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
-- name: KR9｜机房｜低风险
-  password: c7bbf76b-38e5-4954-b270-d8b91a773679
-  port: 49214
-  server: xiaozhu.gisorty.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
 - name: KR_speednode_0020
   password: test.+
   port: 30446
