@@ -1137,12 +1137,11 @@ proxies:
   skip-cert-verify: true
   sni: '%E9%A6%83%E6%95%80%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20783%20'
   type: trojan
-- name: 香港3|@ripaojiedian
-  network: tcp
+- name: HK194｜家宽｜非常安全
   password: 61d8077bfb174e171b8283f155a555ad
   port: 443
   server: 112.118.116.123
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: HK175｜原生/疑似家宽｜非常安全
@@ -1296,6 +1295,20 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf
+  name: 🇭🇰 香港2|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.183.200
+  type: ss
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: 61d8077bfb174e171b8283f155a555ad
+  port: 443
+  server: 58.152.110.111
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
