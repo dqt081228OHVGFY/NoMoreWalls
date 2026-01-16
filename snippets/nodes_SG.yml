@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: SG11｜机房｜低风险
+  network: ws
+  port: '12901'
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94

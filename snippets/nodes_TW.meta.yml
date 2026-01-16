@@ -1,4 +1,31 @@
 proxies:
+- name: TW3｜商宽｜非常安全
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  port: 40130
+  server: tuntro011.instconn.com
+  skip-cert-verify: true
+  sni: cntwbta.686911.xyz
+  type: trojan
+- name: TW4｜机房｜低风险
+  password: 37eb07c6-7ecb-4955-86dc-6284c5dc3b5c
+  port: 41274
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: TW5｜机房｜低风险
+  network: ws
+  port: '12888'
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - name: TW
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
