@@ -65,11 +65,12 @@ proxies:
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-- name: DE99｜原生/疑似家宽｜高风险 (黑名单)
+- name: RU_speednode_0020
   port: 1080
   server: 193.233.254.8
   tls: false
   type: socks5
+  udp: true
   username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
 - name: DE101｜原生/疑似家宽｜高风险 (黑名单)
   port: 1080
@@ -94,17 +95,31 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: DE_speednode_0003
-  network: ws
-  port: 20531
-  server: 82.115.31.209
-  servername: miku.mikuru.ip-ddns.com
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: DE_speednode_0004
+  port: 443
+  reality-opts:
+    public-key: THd83pRAiz68QKKNCzCdj3hvVq9Wy7NIFeIk1WjRJ1c
+    short-id: '!!str 15cdd4ff88310cf0'
+  server: 196.240.57.74
+  servername: desrv.fasti.win
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 7005f499-036f-4570-a2a1-29761cfbbd9e
+- name: DE_speednode_0005
+  network: ws
+  port: 2087
+  server: api.dark-coffe.com
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
     headers:
-      Host: miku.mikuru.ip-ddns.com
-    path: /@Marisa_kristi
+      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+    path: /?ed=2048

@@ -1333,7 +1333,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: HK_speednode_0014
   network: tcp
   password: BxceQaOe
   port: 443
@@ -1341,6 +1341,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
