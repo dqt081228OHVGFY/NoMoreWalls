@@ -1,12 +1,5 @@
 proxies:
-- name: KR1｜机房｜低风险
-  password: 9a3c3e80-6a71-4fb4-af58-317f87a02148
-  port: 49214
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-- name: KR2｜家宽｜高风险 (黑名单)
+- name: KR1｜家宽｜高风险 (黑名单)
   port: 1090
   server: 121.169.46.116
   tls: false

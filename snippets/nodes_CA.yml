@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: CA1｜机房｜低风险
-  network: ws
-  port: '12897'
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
 - name: CA_speednode_0001
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443

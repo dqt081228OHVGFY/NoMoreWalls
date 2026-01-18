@@ -1,11 +1,1 @@
-proxies:
-- alpn:
-  - h2
-  - http/1.1
-  name: RU10｜商宽｜非常安全
-  password: yUHNMwWvenoHBaN5CtqKPwt1CTzXgW
-  port: 443
-  server: ru2.nnvpn.io
-  skip-cert-verify: true
-  sni: ru2.nnvpn.io
-  type: trojan
+proxies: []
