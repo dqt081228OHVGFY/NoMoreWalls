@@ -1,25 +1,4 @@
 proxies:
-- name: JP3｜机房｜低风险
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
-  port: 443
-  server: tuntro003.instconn.com
-  skip-cert-verify: true
-  sni: login-staticjpc.jasmine-douyin.top
-  type: trojan
-- name: JP4｜机房｜低风险
-  password: BxceQaOe
-  port: 2595
-  server: 43.206.194.122
-  skip-cert-verify: true
-  sni: 43.206.194.122
-  type: trojan
-- name: JP5｜机房｜低风险
-  password: 4843e94d205f3893f588255a591abe94
-  port: 3423
-  server: 160.16.70.180
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
