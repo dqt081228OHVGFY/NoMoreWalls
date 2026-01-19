@@ -274,14 +274,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: HK_speednode_0014
+- name: HK47｜家宽｜非常安全
   password: BxceQaOe
   port: 443
   server: 58.152.110.50
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: US90｜机房｜低风险
   password: 95b4c6dc-9367-45c9-9b09-a0e51b9b1fad
   port: 41275
@@ -289,13 +288,14 @@ proxies:
   skip-cert-verify: true
   sni: douyin.com
   type: trojan
-- name: HK54｜家宽｜非常安全
+- name: HK_speednode_0013
   password: 4843e94d205f3893f588255a591abe94
   port: 443
   server: 58.152.18.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: JP5｜机房｜低风险
   password: 4843e94d205f3893f588255a591abe94
   port: 3423
@@ -672,11 +672,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: CA_speednode_0001
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
+- name: HK_speednode_0014
+  password: 4843e94d205f3893f588255a591abe94
   port: 443
-  server: tuntro006.instconn.com
+  server: 58.152.18.124
   skip-cert-verify: true
-  sni: torontorm1.686911.xyz
+  type: trojan
+  udp: true
+- name: IN_speednode_0016
+  password: M7v%w11Se*
+  port: 443
+  server: hyfuuf6.wsone.icu
+  skip-cert-verify: true
+  sni: hyfuuf6.wsone.icu
   type: trojan
   udp: true
