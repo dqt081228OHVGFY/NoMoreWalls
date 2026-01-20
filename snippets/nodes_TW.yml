@@ -1,1 +1,36 @@
-proxies: []
+proxies:
+- name: TW2｜商宽｜非常安全
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  port: 40130
+  server: tuntro011.instconn.com
+  skip-cert-verify: true
+  sni: cntwbta.686911.xyz
+  type: trojan
+- name: TW3｜原生/疑似家宽｜非常安全
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26005
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  type: trojan
+- name: TW4｜原生/疑似家宽｜非常安全
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26007
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  type: trojan
+- name: TW5｜原生/疑似家宽｜非常安全
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26005
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+- name: TW6｜原生/疑似家宽｜非常安全
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26007
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
