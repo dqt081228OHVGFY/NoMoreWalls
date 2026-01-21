@@ -1,7 +1,15 @@
 proxies:
+- name: FR2｜机房｜低风险
+  password: a516b408-e06d-4278-9e6d-5271571ecab5
+  port: 20248
+  server: 51.75.118.149
+  skip-cert-verify: true
+  sni: dash.cloudflare.com
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: FR1｜机房｜低风险
+  name: FR3｜机房｜低风险
   network: tcp
   port: '30835'
   server: v35.hdacd.com
