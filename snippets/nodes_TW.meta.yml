@@ -1,11 +1,4 @@
 proxies:
-- name: TW2｜商宽｜非常安全
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
-  port: 40130
-  server: tuntro011.instconn.com
-  skip-cert-verify: true
-  sni: cntwbta.686911.xyz
-  type: trojan
 - name: TW
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000

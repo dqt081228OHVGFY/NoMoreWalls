@@ -1,16 +1,76 @@
 proxies:
-- name: DE7｜原生/疑似家宽｜高风险 (黑名单)
+- name: DE1｜机房｜低风险
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 2096
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660235579.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660236476.206353.xyz
+    path: '%2Fagrbniuh'
+- name: DE2｜机房｜低风险
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 2087
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660236802.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660238012.206353.xyz
+    path: '%2Fagrbniuh'
+- name: DE3｜机房｜低风险
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 2083
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660237730.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660235757.206353.xyz
+    path: '%2Fagrbniuh'
+- name: DE4｜机房｜低风险
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 8443
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660233001.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660232579.206353.xyz
+    path: '%2Fagrbniuh'
+- name: DE5｜机房｜低风险
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 2053
+  server: bestcdn5.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660237689.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660232320.206353.xyz
+    path: '%2Fagrbniuh'
+- name: DE51｜原生/疑似家宽｜高风险 (黑名单)
   port: 1080
   server: 193.233.254.8
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
-- name: DE35｜原生/疑似家宽｜高风险 (黑名单)
+  username: T2dAMTkzLjIzMy4yNTQuODo%3D
+- name: DE50｜原生/疑似家宽｜高风险 (黑名单)
   port: 1080
   server: 193.233.254.7
   tls: false
   type: socks5
-  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
+  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43Og%3D%3D
 - name: RU_speednode_0033
   port: 1080
   server: 193.233.254.9
@@ -20,7 +80,7 @@ proxies:
   username: Og@193.233.254.9
 - alterId: 0
   cipher: auto
-  name: DE74｜机房｜低风险
+  name: DE35｜机房｜低风险
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -29,7 +89,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: DE46｜机房｜低风险
+  name: DE54｜机房｜低风险
   network: tcp
   port: '30833'
   server: v33.hdacd.com

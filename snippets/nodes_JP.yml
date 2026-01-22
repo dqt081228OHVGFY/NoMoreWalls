@@ -1,4 +1,11 @@
 proxies:
+- name: JP2｜机房｜低风险
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  port: 443
+  server: tuntro003.instconn.com
+  skip-cert-verify: true
+  sni: login-staticjpc.jasmine-douyin.top
+  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
