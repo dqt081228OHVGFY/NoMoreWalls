@@ -19,6 +19,7 @@ proxies:
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 2053
   server: 54.238.172.125
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: JP_speednode_0009

@@ -709,23 +709,27 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F195.123.218.174-443'
+- cipher: aes-256-cfb
+  name: tg频道:@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
 - alterId: 2
   cipher: auto
-  name: 香港|@ripaojiedian
-  network: tcp
-  port: '30807'
+  name: 🇭🇰 香港|@ripaojiedian
+  port: 30807
   server: v10.hdacd.com
-  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 香港2|@ripaojiedian
-  network: tcp
-  port: '34659'
+  name: 🇭🇰 香港2|@ripaojiedian
+  port: 34659
   server: 47.242.192.233
-  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 8482671e-846f-45c7-aec4-531c79f775ec
@@ -734,6 +738,7 @@ proxies:
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
   server: 58.152.18.124
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
@@ -765,6 +770,7 @@ proxies:
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 2053
   server: 54.238.172.125
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: JP_speednode_0009
@@ -797,6 +803,7 @@ proxies:
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 5076
   server: 160.16.89.176
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
@@ -804,6 +811,7 @@ proxies:
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 5076
   server: 160.16.81.84
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
@@ -814,6 +822,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.51
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 香港2|@ripaojiedian
+  network: tcp
+  port: '34659'
+  server: 47.242.192.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8482671e-846f-45c7-aec4-531c79f775ec
 - name: DE_speednode_0002
   password: telegram-id-privatevpns
   port: 22222
