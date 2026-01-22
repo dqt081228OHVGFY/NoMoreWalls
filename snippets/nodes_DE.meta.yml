@@ -11,12 +11,13 @@ proxies:
   tls: false
   type: socks5
   username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
-- name: DE9｜原生/疑似家宽｜高风险 (黑名单)
+- name: RU_speednode_0033
   port: 1080
   server: 193.233.254.9
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
+  udp: true
+  username: Og@193.233.254.9
 - alterId: 0
   cipher: auto
   name: DE74｜机房｜低风险
@@ -43,6 +44,14 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
+- name: DE_speednode_0002
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.196.155.223
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: DE_speednode_0003
@@ -57,3 +66,10 @@ proxies:
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+- name: DE_speednode_0004
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.196.155.223
+  skip-cert-verify: true
+  type: trojan
+  udp: true
