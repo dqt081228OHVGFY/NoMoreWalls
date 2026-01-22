@@ -156,5 +156,5 @@ trojan://Aimer@167.68.4.199:2053?allowInsecure=1&sni=epge.muarua.filegear-sg.me&
 vless://02fb468f-21f2-460e-bfa1-ef52ae5e627f@plcdn14.suio.me:443?allowInsecure=0&sni=plcdn14.suio.me&security=tls#US_speednode_0038
 trojan://Aimer@167.68.4.199:2053?allowInsecure=0&sni=epge.muarua.filegear-sg.me&type=ws&host=epge.muarua.filegear-sg.me&path=/#US_speednode_0039
 anytls://4ad48f61-bd38-432d-a33b-0fb21089e065@au.xn--99-c72c.top:18443?security=tls&type=tcp&allowInsecure=1&sni=gw.alicdn.com&udp=1&insecure=1#AU1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
-anytls://4ad48f61-bd38-432d-a33b-0fb21089e065@de.xn--99-c72c.top:18444?security=tls&type=tcp&allowInsecure=1&sni=gw.alicdn.com&udp=1&insecure=1#DE1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
 anytls://4ad48f61-bd38-432d-a33b-0fb21089e065@us.xn--99-c72c.top:18444?security=tls&type=tcp&allowInsecure=1&sni=gw.alicdn.com&udp=1&insecure=1#US1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
+anytls://4ad48f61-bd38-432d-a33b-0fb21089e065@de.xn--99-c72c.top:18444?security=tls&type=tcp&allowInsecure=1&sni=gw.alicdn.com&udp=1&insecure=1#DE1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
