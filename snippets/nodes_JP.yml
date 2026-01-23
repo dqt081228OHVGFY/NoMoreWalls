@@ -1,11 +1,40 @@
 proxies:
-- name: JP2｜机房｜低风险
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
-  port: 443
-  server: tuntro003.instconn.com
-  skip-cert-verify: true
-  sni: login-staticjpc.jasmine-douyin.top
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: JP5｜家宽｜非常安全
+  network: tcp
+  port: '8819'
+  server: 120.236.197.10
+  tls: false
+  type: vmess
+  uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
+- alterId: 0
+  cipher: auto
+  name: JP2｜家宽｜非常安全
+  network: tcp
+  port: '40770'
+  server: 151.242.183.86
+  tls: false
+  type: vmess
+  uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
+- alterId: 0
+  cipher: auto
+  name: JP6｜家宽｜非常安全
+  network: tcp
+  port: '40770'
+  server: 151.242.183.120
+  tls: false
+  type: vmess
+  uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
+- alterId: 0
+  cipher: auto
+  name: JP7｜家宽｜非常安全
+  network: tcp
+  port: '40770'
+  server: 151.242.180.6
+  tls: false
+  type: vmess
+  uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

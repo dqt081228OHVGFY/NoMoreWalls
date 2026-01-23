@@ -5,12 +5,3 @@ proxies:
   tls: false
   type: socks5
   username: T2clM0QlM0Q6
-- alterId: 0
-  cipher: auto
-  name: KR8｜机房｜低风险
-  network: tcp
-  port: '80'
-  server: 152.70.92.69
-  tls: false
-  type: vmess
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
