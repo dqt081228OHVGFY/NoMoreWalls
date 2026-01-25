@@ -1,22 +1,22 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: SG7｜机房｜高风险 (黑名单)
-  network: tcp
-  port: '59952'
-  server: 103.181.165.145
+- name: SG2｜机房｜低风险
+  password: f2f816e5-6d2e-4fde-9cc2-773aa293dc8b
+  port: 8080
+  server: 103.190.179.55
+  skip-cert-verify: true
+  sni: sg12.352343.cc
   tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: SG6｜原生/疑似家宽｜非常安全
-  network: tcp
-  port: '37086'
-  server: tunnel1.qqa678.com
+  type: hysteria2
+- name: SG3｜商宽｜非常安全
+  obfs: salamander
+  obfs-password: ikjnsdakjnasfdjkn
+  password: dbR4wwHGOi
+  port: 19500
+  server: visg.556359.xyz
+  skip-cert-verify: true
+  sni: go.microsoft.com
   tls: false
-  type: vmess
-  uuid: 0863424a-f6e8-4486-b85a-a7144ee89ddc
+  type: hysteria2
 - name: 新加坡1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055

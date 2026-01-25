@@ -1,7 +1,7 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: CN2｜家宽｜非常安全
+  name: CN3｜家宽｜非常安全
   network: tcp
   port: '59003'
   server: 183.236.51.36

@@ -1,82 +1,81 @@
 proxies:
-- name: HK3｜机房｜低风险
-  password: b96f116d-f578-4eaa-aedd-8fb138d3826c
-  port: 35789
-  server: xyhk34994.mggl.wang
-  skip-cert-verify: true
-  sni: xyhk34994.mggl.wang
-  tls: false
-  type: hysteria2
-- name: HK198｜家宽｜非常安全
+- name: HK65｜家宽｜非常安全
   password: BxceQaOe
   port: 443
   server: 58.152.25.130
   skip-cert-verify: true
   sni: 58.152.25.130
   type: trojan
-- name: HK67｜家宽｜非常安全
+- name: HK31｜家宽｜非常安全
   password: BxceQaOe
   port: 443
   server: 58.152.25.130
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: HK_speednode_0026
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: HK144｜家宽｜非常安全
+- name: HK40｜家宽｜非常安全
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
   sni: 219.76.135.98
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: HK192｜机房｜低风险
-  network: tcp
-  port: '30809'
-  server: v9.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: HK193｜家宽｜非常安全
+- name: HK56｜家宽｜非常安全
   port: 443
   server: a3f83f3b-t7bj40-tg010c-1r7od.hkt2.cdnhuawei.com
   tls: false
   type: socks5
   username: NmQ1NjQzNmMtMTUwZC0xMWYwLWIwYzgtZjIzYzkxM2M4ZDJiOjxwYXNzd29yZD4%3D
-- alterId: 2
-  cipher: auto
-  name: HK196｜家宽｜非常安全
-  network: ws
-  port: '80'
-  server: 65f41879-t70f40-t7n4ch-1rfon.hkt.gotochinatown.net
+- name: HK59｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: HK61｜机房｜低风险
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  port: 443
+  server: tuntro000.instconn.com
+  skip-cert-verify: true
+  sni: hkip5.686911.xyz
+  type: trojan
+- name: HK63｜机房｜低风险
+  password: f2f816e5-6d2e-4fde-9cc2-773aa293dc8b
+  port: 8080
+  server: 202.85.53.98
+  skip-cert-verify: true
+  sni: hkmax03.476579.xyz
   tls: false
-  type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK197｜家宽｜非常安全
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
+  type: hysteria2
+- name: HK64｜机房｜低风险
+  password: f2f816e5-6d2e-4fde-9cc2-773aa293dc8b
+  port: 8080
+  server: 151.242.183.24
+  skip-cert-verify: true
+  sni: hkmax01.376897.xyz
   tls: false
-  type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
+  type: hysteria2
+- name: HK66｜原生/疑似家宽｜非常安全
+  password: 5c762006-ed60-4b35-b8fe-4520adeac906
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK67｜原生/疑似家宽｜非常安全
+  password: 655a3e72-788e-41c1-8c23-6032490c64a0
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK78｜家宽｜非常安全
+  port: 443
+  server: d28b916c-t7vwg0-tcc9uq-1rnrp.hkt2.cdnhuawei.com
+  tls: false
+  type: socks5
+  username: OTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5OjxwYXNzd29yZD4%3D
 - name: 🇭🇰 HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
@@ -157,3 +156,11 @@ proxies:
     headers:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
+- name: HK_speednode_0026
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true

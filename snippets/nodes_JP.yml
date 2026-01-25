@@ -1,14 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: JP2｜原生/疑似家宽｜非常安全
-  network: tcp
-  port: '47083'
-  server: tunnel1.qqa678.com
-  tls: false
-  type: vmess
-  uuid: 0863424a-f6e8-4486-b85a-a7144ee89ddc
-- name: JP3｜机房｜低风险
+- name: JP1｜机房｜低风险
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
   server: tuntro003.instconn.com
@@ -17,18 +8,22 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: JP5｜机房｜低风险
-  network: ws
-  port: '443'
-  server: n1753598445.74qxv.top
-  servername: n1753598445.74qxv.top
-  tls: true
+  name: JP7｜原生/疑似家宽｜非常安全
+  network: tcp
+  port: '47083'
+  server: tunnel2.qqa678.com
+  tls: false
   type: vmess
-  uuid: f53b95dc-3ec3-49a2-803a-510e614ae577
-  ws-opts:
-    headers:
-      Host: n1753598445.74qxv.top
-    path: /
+  uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
+- alterId: 0
+  cipher: auto
+  name: JP8｜原生/疑似家宽｜非常安全
+  network: tcp
+  port: '47083'
+  server: tunnel1.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

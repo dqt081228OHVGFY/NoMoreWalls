@@ -1,4 +1,10 @@
 proxies:
+- name: RU6｜家宽｜非常安全
+  port: 1080
+  server: 46.146.220.247
+  tls: false
+  type: socks5
+  username: Og%3D%3D
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: RU_speednode_0046
