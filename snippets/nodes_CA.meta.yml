@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: CA3｜机房｜低风险
+  network: tcp
+  port: '10151'
+  server: knd.balouliangzhimao.xyz
+  tls: false
+  type: vmess
+  uuid: d744bb69-3ef6-3d90-8695-87b59ac22a02

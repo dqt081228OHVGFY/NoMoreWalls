@@ -1,5 +1,5 @@
 proxies:
-- name: RU6｜家宽｜非常安全
+- name: RU4｜家宽｜非常安全
   port: 1080
   server: 46.146.220.247
   tls: false
