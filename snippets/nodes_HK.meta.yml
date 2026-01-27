@@ -229,12 +229,11 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: 新加坡|@ripaojiedian
-  network: tcp
+- name: HK157｜家宽｜非常安全
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
   server: 203.198.122.227
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: HK158｜原生/疑似家宽｜非常安全
@@ -622,8 +621,8 @@ proxies:
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 432
-  server: 18.182.8.233
+  port: 443
+  server: 203.198.122.187
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -631,7 +630,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 1867
-  server: 54.250.244.16
+  server: 18.179.118.202
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
