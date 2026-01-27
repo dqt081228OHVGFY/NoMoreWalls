@@ -1,91 +1,55 @@
 proxies:
-- name: DE18｜原生/疑似家宽｜高风险 (黑名单)
+- name: DE17｜原生/疑似家宽｜高风险 (黑名单)
   port: 1080
   server: 193.233.254.8
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuODo%3D
-- name: DE19｜原生/疑似家宽｜高风险 (黑名单)
+- name: DE18｜原生/疑似家宽｜高风险 (黑名单)
   port: 1080
   server: 193.233.254.9
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-- name: DE17｜原生/疑似家宽｜高风险 (黑名单)
+- name: DE16｜原生/疑似家宽｜高风险 (黑名单)
   port: 1080
   server: 193.233.254.7
   tls: false
   type: socks5
   username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOem9AMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
-- name: DE28｜机房｜低风险
-  network: ws
-  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
-  port: 2096
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17694096397944.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17694096398981.206353.xyz
-    path: '%2Fagrbniuh'
-- name: DE29｜机房｜低风险
-  network: ws
-  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
-  port: 2087
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17694096396716.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17694096399662.206353.xyz
-    path: '%2Fagrbniuh'
-- name: DE30｜机房｜低风险
-  network: ws
-  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
-  port: 2083
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17694096394208.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17694096397473.206353.xyz
-    path: '%2Fagrbniuh'
-- name: DE31｜机房｜低风险
-  network: ws
-  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
-  port: 8443
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17694096392249.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17694096395371.206353.xyz
-    path: '%2Fagrbniuh'
-- name: DE32｜机房｜低风险
-  network: ws
-  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
-  port: 2053
-  server: bestcdn5.868863.xyz
-  skip-cert-verify: true
-  sni: 17694096398199.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17694096397592.206353.xyz
-    path: '%2Fagrbniuh'
 - alterId: 0
   cipher: auto
-  name: DE39｜机房｜高风险 (黑名单)
+  name: DE29｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: DE38｜机房｜低风险
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 135.125.232.253
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F'
+- name: DE40｜机房｜低风险
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 135.125.232.253
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056

@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- name: GB1｜机房｜低风险
+  network: ws
+  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
+  port: 443
+  server: 208.103.161.231
+  skip-cert-verify: true
+  sni: gzjx.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gzjx.dpdns.org
+    path: '%2F51.91.253.83%3D8443'

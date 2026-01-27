@@ -1,7 +1,7 @@
 proxies:
-- name: KR1｜家宽｜高风险 (黑名单)
+- name: KR9｜家宽｜高风险 (黑名单)
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
-  username: T2clM0QlM0Q6
+  username: Og%3D%3D
