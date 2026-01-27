@@ -588,15 +588,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: r♡ya@V2rayBaaz◇⃟💜
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36400
-  server: 206.71.158.37
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
 - name: telegram » mainv𝟮ray
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -623,16 +614,6 @@ proxies:
   server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
   skip-cert-verify: false
   sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: telegram » mainv𝟮ray²
-  obfs: salamander
-  obfs-password: '&O#28YB5qK!5t#U'
-  password: freehomesvpnchannel3
-  port: 46914
-  server: channel1.saghetalaie.homes
-  skip-cert-verify: true
-  sni: nalog.ru
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
