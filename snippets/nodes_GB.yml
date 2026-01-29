@@ -1,16 +1,13 @@
 proxies:
-- name: GB1｜机房｜低风险
-  network: ws
-  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
-  port: 443
-  server: 208.103.161.231
-  skip-cert-verify: true
-  sni: gzjx.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: gzjx.dpdns.org
-    path: '%2F51.91.253.83%3D8443'
+- alterId: 2
+  cipher: auto
+  name: GB14｜机房｜低风险
+  network: tcp
+  port: '30836'
+  server: v36.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧 英国|@ripaojiedian
   password: kaQH3hGdcP80XEDI

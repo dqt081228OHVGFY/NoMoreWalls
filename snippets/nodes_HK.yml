@@ -1,17 +1,96 @@
 proxies:
-- name: HK11｜家宽｜非常安全
+- alterId: 0
+  cipher: auto
+  name: HK50｜原生/疑似家宽｜非常安全
+  network: tcp
+  port: '47081'
+  server: oss-4.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- name: HK45｜家宽｜非常安全
   password: BxceQaOe
   port: 443
-  server: 203.198.122.187
+  server: 219.76.135.98
   skip-cert-verify: true
-  sni: 203.198.122.187
+  sni: 219.76.135.98
   type: trojan
-- name: HK13｜家宽｜非常安全
+- name: HK29｜原生/疑似家宽｜非常安全
+  password: b2e4b979-b198-47e5-8c6c-f4b919e34eb4
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK30｜原生/疑似家宽｜非常安全
+  password: 0500c7b4-083f-4746-a98a-abfbdc755da9
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK31｜原生/疑似家宽｜非常安全
+  password: 3891775d-f1ba-43e6-97c1-f72b300b8975
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK32｜原生/疑似家宽｜非常安全
+  password: 806537b9-6752-4b1a-ab53-6668a4d7459a
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK33｜原生/疑似家宽｜非常安全
+  password: c51b5bd6-2521-42f4-a70a-f5e5f6831e8c
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK35｜家宽｜非常安全
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 443
+  server: 58.152.110.210
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: HK40｜家宽｜非常安全
   password: BxceQaOe
   port: 443
-  server: 203.198.122.187
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: HK47｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: HK46｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- name: HK48｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: HK49｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto

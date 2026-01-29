@@ -1,10 +1,34 @@
 proxies:
-- name: KR9｜家宽｜高风险 (黑名单)
+- name: KR6｜家宽｜高风险 (黑名单)
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
   username: Og%3D%3D
+- name: KR22｜机房｜低风险
+  obfs: salamander
+  obfs-password: rVYx28ncsHBinunc
+  password: 937f8940-ad8a-409f-93c3-4d6249af628f
+  port: 42382
+  server: kr2.miyazono-kaori.com
+  skip-cert-verify: true
+  sni: kr2.miyazono-kaori.com
+  tls: false
+  type: hysteria2
+- name: KR23｜家宽｜非常安全
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 59110
+  server: ptxl01.xsaym.com
+  skip-cert-verify: true
+  sni: www.volcengine.com
+  type: trojan
+- name: KR24｜家宽｜非常安全
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 59099
+  server: ptxl01.xsaym.com
+  skip-cert-verify: true
+  sni: www.volcengine.com
+  type: trojan
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: KR_speednode_0014

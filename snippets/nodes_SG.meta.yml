@@ -1,60 +1,32 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: SG1｜原生/疑似家宽｜非常安全
-  network: tcp
-  port: '59510'
-  server: ffiw.owwoedu.com
-  tls: false
-  type: vmess
-  uuid: 012e03ba-ff1a-4b78-a2e9-f367d56af706
-- alterId: 0
-  cipher: auto
-  name: SG2｜原生/疑似家宽｜非常安全
-  network: tcp
-  port: '59510'
-  server: ffiw.owwoedu.com
-  tls: false
-  type: vmess
-  uuid: fc33118c-6294-46b7-91f1-0f3a60371c8a
-- alterId: 0
-  cipher: auto
-  name: SG6｜原生/疑似家宽｜非常安全
-  network: tcp
-  port: '59510'
-  server: ffiw.owwoedu.com
-  tls: false
-  type: vmess
-  uuid: e97ed422-56d3-429e-9558-3f6ac92da7e5
-- alterId: 0
-  cipher: auto
-  name: SG4｜原生/疑似家宽｜非常安全
-  network: tcp
-  port: '59510'
-  server: ffiw.owwoedu.com
-  tls: false
-  type: vmess
-  uuid: fd38c40b-7465-4b1d-832f-6d096d859bd2
 - name: SG5｜机房｜低风险
-  password: BxceQaOe
-  port: 3579
-  server: 13.158.129.83
+  password: f2f816e5-6d2e-4fde-9cc2-773aa293dc8b
+  port: 8080
+  server: 103.190.179.40
   skip-cert-verify: true
-  sni: 13.158.129.83
+  sni: sg10.352343.cc
+  tls: false
+  type: hysteria2
+- name: SG6｜机房｜低风险
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 55016
+  server: ptxl01.xsaym.com
+  skip-cert-verify: true
+  sni: www.volcengine.com
   type: trojan
 - name: SG7｜机房｜低风险
-  password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 3901
-  server: 160.16.87.174
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 55015
+  server: ptxl01.xsaym.com
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: www.volcengine.com
   type: trojan
 - name: SG8｜机房｜低风险
-  password: BxceQaOe
-  port: 3579
-  server: 13.158.129.83
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 55017
+  server: ptxl02.xsaym.com
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: www.volcengine.com
   type: trojan
 - name: 新加坡1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b

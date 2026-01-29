@@ -1,55 +1,65 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: JP1｜原生/疑似家宽｜非常安全
+  name: JP17｜原生/疑似家宽｜非常安全
   network: tcp
   port: '47083'
-  server: tunnel2.qqa678.com
+  server: tunnel1.qqa678.com
   tls: false
   type: vmess
-  uuid: 2ab2ff5b-9684-4150-bec0-6bd036ae7c26
-- name: JP2｜机房｜低风险
-  password: cdfb1e22-e278-4eca-8030-916b906a3169
-  port: 41273
-  server: xiaozhu1.kkieo555.cn
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- name: JP18｜机房｜低风险
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 443
+  server: jp03.poke-mon.xyz
   skip-cert-verify: true
-  sni: xiaozhu1.kkieo555.cn
-  type: trojan
-- name: JP3｜机房｜低风险
-  password: 6c4cd8b6-2524-4dbc-97b2-f832ffd83687
-  port: 41273
-  server: xiaozhu1.kkieo555.cn
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: JP19｜商宽｜非常安全
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 54225
+  server: ptxl01.xsaym.com
   skip-cert-verify: true
-  sni: xiaozhu1.kkieo555.cn
+  sni: www.volcengine.com
   type: trojan
-- name: JP4｜机房｜低风险
-  password: d1505dbc-d89e-4c4d-8a7e-de95ec332de5
-  port: 41273
-  server: xiaozhu1.kkieo555.cn
+- name: JP20｜机房｜低风险
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 54032
+  server: ptxl01.xsaym.com
   skip-cert-verify: true
-  sni: xiaozhu1.kkieo555.cn
+  sni: www.volcengine.com
   type: trojan
-- name: JP5｜机房｜低风险
-  password: BxceQaOe
-  port: 2595
-  server: 13.158.129.83
+- name: JP21｜机房｜低风险
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 54029
+  server: ptxl02.xsaym.com
   skip-cert-verify: true
-  sni: 13.158.129.83
+  sni: www.volcengine.com
   type: trojan
-- name: JP6｜机房｜低风险
-  password: cdfb1e22-e278-4eca-8030-916b906a3169
-  port: 41273
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-- name: JP7｜机房｜低风险
-  password: d1505dbc-d89e-4c4d-8a7e-de95ec332de5
-  port: 41273
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
+- alterId: 2
+  cipher: auto
+  name: JP22｜机房｜低风险
+  network: tcp
+  port: '30806'
+  server: v6.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: JP26｜机房｜低风险
+  network: ws
+  port: '443'
+  server: n1753598446.wpg27.xyz
+  servername: n1753598446.wpg27.xyz
+  tls: true
+  type: vmess
+  uuid: a5047d95-24b8-451a-93e3-f2a387b93d5a
+  ws-opts:
+    headers:
+      Host: n1753598446.wpg27.xyz
+    path: /
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778

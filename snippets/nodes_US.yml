@@ -1,96 +1,56 @@
 proxies:
+- name: US24｜家宽｜非常安全
+  password: 37a9bc53-bf36-4c42-9127-34d0b6515b39
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: US16｜原生/疑似家宽｜非常安全
+  name: US62｜原生/疑似家宽｜非常安全
   network: tcp
   port: '47084'
   server: tunnel2.qqa678.com
   tls: false
   type: vmess
-  uuid: 2ab2ff5b-9684-4150-bec0-6bd036ae7c26
-- name: US7｜机房｜低风险
-  password: 54faef23-3516-4131-b788-8f3853dac8fa
-  port: 43533
-  server: faq1.lieerr222.cn
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- alterId: 2
+  cipher: auto
+  name: US65｜机房｜低风险
+  network: tcp
+  port: '30804'
+  server: v4.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: US69｜机房｜低风险
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 56115
+  server: ptxl01.xsaym.com
   skip-cert-verify: true
-  sni: faq1.lieerr222.cn
+  sni: www.volcengine.com
   type: trojan
-- name: US8｜机房｜低风险
-  password: d2577b7b-b364-497c-8704-79f7a498af3d
-  port: 43533
-  server: faq1.lieerr222.cn
+- name: US70｜机房｜低风险
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 56017
+  server: ptxl01.xsaym.com
   skip-cert-verify: true
-  sni: faq1.lieerr222.cn
+  sni: www.volcengine.com
   type: trojan
-- name: US9｜机房｜低风险
-  password: 7b6ab433-b1da-41d0-b69a-55892d6cac4c
-  port: 43533
-  server: faq1.lieerr222.cn
+- name: US71｜机房｜低风险
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 56019
+  server: ptxl02.xsaym.com
   skip-cert-verify: true
-  sni: faq1.lieerr222.cn
+  sni: www.volcengine.com
   type: trojan
-- name: US11｜机房｜低风险
-  password: b828634c-32af-42ea-9d7e-b29370fd13a9
-  port: 41275
-  server: xiaozhu1.kkieo555.cn
+- name: US75｜机房｜低风险
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 38.54.59.90
   skip-cert-verify: true
-  sni: xiaozhu1.kkieo555.cn
-  type: trojan
-- name: US12｜机房｜低风险
-  password: f12bffe8-1e2d-42d0-a1d9-70c0ec5e4990
-  port: 41275
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: xiaozhu1.kkieo555.cn
-  type: trojan
-- name: US13｜机房｜低风险
-  password: BxceQaOe
-  port: 2173
-  server: 13.158.129.83
-  skip-cert-verify: true
-  sni: 13.158.129.83
-  type: trojan
-- name: US17｜机房｜低风险
-  password: 54faef23-3516-4131-b788-8f3853dac8fa
-  port: 43533
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-- name: US18｜机房｜低风险
-  password: d2577b7b-b364-497c-8704-79f7a498af3d
-  port: 43533
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-- name: US19｜机房｜低风险
-  password: 7b6ab433-b1da-41d0-b69a-55892d6cac4c
-  port: 43533
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-- name: US20｜机房｜低风险
-  password: b828634c-32af-42ea-9d7e-b29370fd13a9
-  port: 41275
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-- name: US21｜机房｜低风险
-  password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 491
-  server: 52.195.170.6
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: US22｜机房｜低风险
-  password: BxceQaOe
-  port: 2173
-  server: 13.158.129.83
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: 38.54.59.90
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
