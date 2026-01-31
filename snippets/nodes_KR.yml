@@ -1,15 +1,1 @@
-proxies:
-- name: KR23｜家宽｜非常安全
-  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
-  port: 59110
-  server: ptxl01.xsaym.com
-  skip-cert-verify: true
-  sni: www.volcengine.com
-  type: trojan
-- name: KR24｜家宽｜非常安全
-  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
-  port: 59099
-  server: ptxl01.xsaym.com
-  skip-cert-verify: true
-  sni: www.volcengine.com
-  type: trojan
+proxies: []

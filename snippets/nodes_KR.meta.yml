@@ -1,31 +1,27 @@
 proxies:
-- name: KR6｜家宽｜高风险 (黑名单)
+- name: KR3｜家宽｜高风险 (黑名单)
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
   username: Og%3D%3D
-- name: KR22｜机房｜低风险
+- name: KR4｜机房｜低风险
+  obfs: salamander
+  obfs-password: MKsqfibVxwhZ3pCf
+  password: fbf28ef0-3981-4ac6-ab33-95e599afdd99
+  port: 42101
+  server: kr1.miyazono-kaori.com
+  skip-cert-verify: true
+  sni: kr1.miyazono-kaori.com
+  tls: false
+  type: hysteria2
+- name: KR5｜机房｜低风险
   obfs: salamander
   obfs-password: rVYx28ncsHBinunc
-  password: 937f8940-ad8a-409f-93c3-4d6249af628f
-  port: 42382
+  password: fbf28ef0-3981-4ac6-ab33-95e599afdd99
+  port: 42329
   server: kr2.miyazono-kaori.com
   skip-cert-verify: true
   sni: kr2.miyazono-kaori.com
   tls: false
   type: hysteria2
-- name: KR23｜家宽｜非常安全
-  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
-  port: 59110
-  server: ptxl01.xsaym.com
-  skip-cert-verify: true
-  sni: www.volcengine.com
-  type: trojan
-- name: KR24｜家宽｜非常安全
-  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
-  port: 59099
-  server: ptxl01.xsaym.com
-  skip-cert-verify: true
-  sni: www.volcengine.com
-  type: trojan

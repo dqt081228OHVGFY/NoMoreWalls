@@ -1,119 +1,117 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: HK50｜原生/疑似家宽｜非常安全
-  network: tcp
-  port: '47081'
-  server: oss-4.qqa678.com
-  tls: false
-  type: vmess
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-- name: HK45｜家宽｜非常安全
+- name: HK20｜家宽｜非常安全
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
-  sni: 219.76.135.98
+  sni: t.me%2Fripaojiedian
   type: trojan
-- name: HK29｜原生/疑似家宽｜非常安全
-  password: b2e4b979-b198-47e5-8c6c-f4b919e34eb4
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK30｜原生/疑似家宽｜非常安全
-  password: 0500c7b4-083f-4746-a98a-abfbdc755da9
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK31｜原生/疑似家宽｜非常安全
-  password: 3891775d-f1ba-43e6-97c1-f72b300b8975
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK32｜原生/疑似家宽｜非常安全
-  password: 806537b9-6752-4b1a-ab53-6668a4d7459a
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK33｜原生/疑似家宽｜非常安全
-  password: c51b5bd6-2521-42f4-a70a-f5e5f6831e8c
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK35｜家宽｜非常安全
-  password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 443
-  server: 58.152.110.210
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: HK40｜家宽｜非常安全
+- name: HK2｜家宽｜非常安全
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: HK42｜家宽｜非常安全
-  port: 443
-  server: d28b916c-t7vwg0-tcc9uq-1rnrp.hkt2.cdnhuawei.com
-  tls: false
-  type: socks5
-  username: OTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5OjxwYXNzd29yZD4%3D
-- name: HK47｜家宽｜非常安全
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: HK46｜家宽｜非常安全
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me%25252Fripaojiedian
-  type: trojan
-- name: HK48｜家宽｜非常安全
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.45
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: HK49｜家宽｜非常安全
+- name: HK3｜家宽｜非常安全
   password: BxceQaOe
   port: 443
   server: 58.152.53.45
   skip-cert-verify: true
   sni: t.me%25252Fripaojiedian
   type: trojan
-- name: HK52｜机房｜低风险
-  password: f2f816e5-6d2e-4fde-9cc2-773aa293dc8b
-  port: 8080
-  server: 202.85.53.142
+- name: HK4｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
   skip-cert-verify: true
-  sni: hkt08.344233.cc
-  tls: false
-  type: hysteria2
-- name: HK53｜家宽｜非常安全
-  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
-  port: 20000
-  server: hk01.poke-mon.xyz
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: HK24｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
   skip-cert-verify: true
-  sni: www.apple.com
+  sni: 219.76.135.98
+  type: trojan
+- name: HK10｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- name: HK11｜原生/疑似家宽｜非常安全
+  password: 5f4142b3-b20f-43f1-bc09-41c0e00662f9
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK12｜原生/疑似家宽｜非常安全
+  password: 14f7a5c0-e8ae-40a7-884c-41555730e3b6
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK13｜原生/疑似家宽｜非常安全
+  password: 4a14fe06-1b03-4d93-a360-1e33ae972896
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK14｜原生/疑似家宽｜非常安全
+  password: 80429ec5-265a-4a99-b0bb-ddc9e75411c0
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK16｜原生/疑似家宽｜非常安全
+  password: 21f085a7-ace6-495e-b550-281c8bfde899
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK17｜原生/疑似家宽｜非常安全
+  password: 19fcde52-c498-4863-8fb1-5923c75dec39
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK18｜原生/疑似家宽｜非常安全
+  password: 397b6abf-c044-4fa7-9b70-269d9ada828d
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: HK32｜家宽｜非常安全
+  network: ws
+  port: '80'
+  server: 3f637c17-t94cg0-tcuz7t-1ta58.hkt.gotochinatown.net
   tls: false
-  type: hysteria2
+  type: vmess
+  uuid: e2d8b574-e089-11ef-9cc7-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: HK33｜机房｜低风险
+  network: tcp
+  port: '30809'
+  server: v9.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇭🇰 HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443

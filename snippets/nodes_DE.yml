@@ -1,19 +1,20 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: DE28｜机房｜低风险
-  network: tcp
-  port: '30833'
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: DE31｜机房｜高风险 (黑名单)
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: DE24｜机房｜低风险
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  port: 443
+  server: tuntro010.instconn.com
+  skip-cert-verify: true
+  sni: frankfurtrm2.686911.xyz
+  type: trojan
+- name: DE27｜机房｜低风险
+  network: ws
+  password: f7cecc70-524e-4bea-af14-d7367fdb4080
+  port: 8443
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17698511625136.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17698511625590.206353.xyz
+    path: '%2Fagrbniuh'

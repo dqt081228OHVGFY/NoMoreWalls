@@ -1,58 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 日本4|@ripaojiedian
-  network: tcp
-  port: '47083'
-  server: tunnel1.qqa678.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-- name: JP19｜商宽｜非常安全
-  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
-  port: 54225
-  server: ptxl01.xsaym.com
-  skip-cert-verify: true
-  sni: www.volcengine.com
-  type: trojan
-- name: JP20｜机房｜低风险
-  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
-  port: 54032
-  server: ptxl01.xsaym.com
-  skip-cert-verify: true
-  sni: www.volcengine.com
-  type: trojan
 - name: JP21｜机房｜低风险
-  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
-  port: 54029
-  server: ptxl02.xsaym.com
+  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
+  port: 25010
+  server: 37.202.200.19
   skip-cert-verify: true
-  sni: www.volcengine.com
+  sni: 37.202.200.19
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: JP22｜机房｜低风险
-  network: tcp
-  port: '30806'
-  server: v6.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: JP26｜机房｜低风险
-  network: ws
-  port: '443'
-  server: n1753598446.wpg27.xyz
-  servername: n1753598446.wpg27.xyz
-  tls: true
-  type: vmess
-  uuid: a5047d95-24b8-451a-93e3-f2a387b93d5a
-  ws-opts:
-    headers:
-      Host: n1753598446.wpg27.xyz
-    path: /
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -83,6 +36,16 @@ proxies:
   port: 47083
   server: tunnel1.qqa678.com
   skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- alterId: 0
+  cipher: auto
+  name: 日本4|@ripaojiedian
+  network: tcp
+  port: '47083'
+  server: tunnel1.qqa678.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 9f8c122d-5b86-4c19-af87-64f458a88223

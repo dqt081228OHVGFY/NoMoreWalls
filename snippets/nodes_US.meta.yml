@@ -1,81 +1,116 @@
 proxies:
-- name: US24｜家宽｜非常安全
-  password: 37a9bc53-bf36-4c42-9127-34d0b6515b39
+- name: US4｜机房｜低风险
+  network: ws
+  password: 056b39f5-ffb3-4145-8f75-2ffdeb53cb48
+  port: 2087
+  server: bestcdn0.868863.xyz
+  skip-cert-verify: true
+  sni: 17698512162997.682637.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17698512164336.682637.xyz
+    path: '%2Fahyrtuyjykl'
+- name: US5｜机房｜低风险
+  network: ws
+  password: 056b39f5-ffb3-4145-8f75-2ffdeb53cb48
+  port: 2083
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17698512161222.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17698512161457.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: US6｜机房｜低风险
+  password: 767ed51d-2358-4981-9447-a807c1419e93
+  port: 50000
+  server: 129.153.76.186
+  skip-cert-verify: true
+  sni: fastcdn.hoyoverse.com
+  tls: false
+  type: hysteria2
+- name: US16｜机房｜低风险
+  password: c22516d4-a4a2-4c62-917f-b73437d5827c
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: US9｜机房｜低风险
+  password: c30d5cba-aa70-4588-86b5-4cc897839ab8
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: US10｜家宽｜非常安全
+  password: 3692ef88-4d16-4848-a01b-b646f9448b11
   port: 35501
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
+- name: US12｜机房｜低风险
+  password: 41a4f30b-10d2-43e1-8e7f-0605eb63b064
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: US13｜机房｜低风险
+  password: ad8c3eed-70b9-4a22-94ca-b16e888290da
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: US62｜原生/疑似家宽｜非常安全
-  network: tcp
-  port: '47084'
-  server: tunnel2.qqa678.com
+  name: US18｜机房｜低风险
+  network: ws
+  port: '2086'
+  server: 154.83.2.156
   tls: false
   type: vmess
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  ws-opts:
+    headers:
+      Host: v205.19740822.xyz
+    path: /
+- name: US15｜机房｜低风险
+  password: 572685d1-c0d9-47e6-9764-05b7ada3745f
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: US17｜机房｜低风险
+  password: 1face1ff-4075-4e3c-823d-dafd3430140b
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: US65｜机房｜低风险
+  name: US20｜机房｜低风险
   network: tcp
-  port: '30804'
-  server: v4.hdacd.com
+  port: '30824'
+  server: v24.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: US67｜机房｜低风险
-  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
-  port: 443
-  server: us01zl.poke-mon.xyz
-  skip-cert-verify: true
-  sni: bing.com
+- alterId: 2
+  cipher: auto
+  name: US21｜机房｜低风险
+  network: tcp
+  port: '30808'
+  server: v8.hdacd.com
   tls: false
-  type: hysteria2
-- name: US68｜机房｜低风险
-  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
-  port: 20000
-  server: us02zl.poke-mon.xyz
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: US69｜机房｜低风险
-  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
-  port: 56115
-  server: ptxl01.xsaym.com
-  skip-cert-verify: true
-  sni: www.volcengine.com
-  type: trojan
-- name: US70｜机房｜低风险
-  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
-  port: 56017
-  server: ptxl01.xsaym.com
-  skip-cert-verify: true
-  sni: www.volcengine.com
-  type: trojan
-- name: US71｜机房｜低风险
-  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
-  port: 56019
-  server: ptxl02.xsaym.com
-  skip-cert-verify: true
-  sni: www.volcengine.com
-  type: trojan
-- name: US74｜机房｜低风险
-  password: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
-  port: 443
-  server: 129.153.25.59
-  skip-cert-verify: true
-  sni: www.lamer.com.hk
-  tls: false
-  type: hysteria2
-- name: US75｜机房｜低风险
-  password: af4b064a9c39472fb34ad8b113acdc6b
-  port: 443
-  server: 38.54.59.90
-  skip-cert-verify: true
-  sni: 38.54.59.90
-  type: trojan
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056

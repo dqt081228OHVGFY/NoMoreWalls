@@ -1,12 +1,4 @@
 proxies:
-- name: TW12｜商宽｜非常安全
-  password: f2f816e5-6d2e-4fde-9cc2-773aa293dc8b
-  port: 8080
-  server: 36.231.66.157
-  skip-cert-verify: true
-  sni: 5gzdx.233235.xyz
-  tls: false
-  type: hysteria2
 - name: TW
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
