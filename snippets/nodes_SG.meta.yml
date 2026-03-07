@@ -12,7 +12,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
   server: 160.16.124.17
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
@@ -20,7 +19,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
   server: 153.121.65.107
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
