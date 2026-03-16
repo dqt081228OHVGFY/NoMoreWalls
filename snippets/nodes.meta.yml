@@ -251,6 +251,14 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
+- name: Telegram:@config_proxy 😍
+  password: fe0fda62-79ff-467e-bef4-983322c1d21b
+  port: 56309
+  server: hkt.ccwink.cc
+  skip-cert-verify: true
+  sni: hkt.ccwink.cc
+  tls: false
+  type: hysteria2
 - cipher: aes-256-cfb
   name: tg频道:@ripaojiedian
   password: amazonskr05
