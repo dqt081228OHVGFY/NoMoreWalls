@@ -90,7 +90,7 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇭🇰HK_@WangCai_8
-  password: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
   port: 443
   server: wangcai.hk1.hyhuawei.com
   skip-cert-verify: true
