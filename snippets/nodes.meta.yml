@@ -89,14 +89,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇭🇰HK_@WangCai_8
-  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-  port: 443
-  server: wangcai.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: WangCai.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
 - name: 🏆21@oneclickvpnkeys
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
