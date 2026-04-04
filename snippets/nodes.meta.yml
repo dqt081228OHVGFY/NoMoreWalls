@@ -99,6 +99,14 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
+- name: 🤖21@oneclickvpnkeys
+  password: dongtaiwang.com
+  port: 40022
+  server: 62.210.25.116
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - name: 🏆41@oneclickvpnkeys
   obfs: salamander
   obfs-password: FxZylbqClUqVqAs2nezW9kPyFb2edZ2
