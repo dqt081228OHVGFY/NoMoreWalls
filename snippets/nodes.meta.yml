@@ -107,16 +107,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: برای+اتصال+دائمی+جوین+شو🗾+prro...
-  obfs: salamander
-  obfs-password: kish-data-center
-  password: tSVwuwRnNk
-  port: 443
-  server: srm.kishonline.online
-  skip-cert-verify: false
-  sni: srm.kishonline.online
-  tls: false
-  type: hysteria2
 - cipher: aes-256-cfb
   name: tg频道:@ripaojiedian
   password: amazonskr05
