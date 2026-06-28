@@ -807,6 +807,30 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: 🇸🇬SG_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 18.143.178.20
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 🇰🇷KR_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 43.202.60.234
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: '🇸🇬SG_@WangCai_8 #1'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 54.179.158.79
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -921,16 +945,6 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪@irconfiig
-  obfs: salamander
-  obfs-password: T.me/V2RayyNGvpn
-  password: Z7MFGgpuzh
-  port: 443
-  server: 185.250.41.245
-  skip-cert-verify: true
-  sni: www.wordreference.com
-  tls: false
-  type: hysteria2
 - name: '@KAFING_2 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -979,10 +993,10 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 🇫🇮 Finland hy2🇫🇮 🔐بزنید تو هید...
+- name: 🇫🇮فنلاند 🇫🇮
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: t-me-v2rayyngvpn
+  password: t-me-V2RayyNGvpn
   port: 443
   server: 65.109.177.191
   skip-cert-verify: true
