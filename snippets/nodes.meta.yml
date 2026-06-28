@@ -964,6 +964,16 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '@filembad'
+  obfs: salamander
+  obfs-password: 2a7e8084206388f4
+  password: gdubbi2zb6gdp0c8
+  port: 443
+  server: 103.251.167.168
+  skip-cert-verify: false
+  sni: gettestin.xxee.ru
+  tls: false
+  type: hysteria2
 - name: '@prrofile_purple  ♥️👈 تلگرام #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
