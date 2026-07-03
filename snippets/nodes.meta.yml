@@ -1,7 +1,87 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '防范境外势力渗透 #9'
+  name: 防范境外势力渗透
+  network: tcp
+  port: '443'
+  server: 160.79.104.10
+  servername: www.anthropic.com
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888880
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #1'
+  network: tcp
+  port: '443'
+  server: 160.79.104.10
+  servername: www.anthropic.com
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888881
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #2'
+  network: tcp
+  port: '443'
+  server: 160.79.104.10
+  servername: www.anthropic.com
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888882
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #3'
+  network: tcp
+  port: '443'
+  server: 160.79.104.10
+  servername: www.anthropic.com
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888883
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #4'
+  network: tcp
+  port: '443'
+  server: 160.79.104.10
+  servername: www.anthropic.com
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888884
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #5'
+  network: tcp
+  port: '443'
+  server: 160.79.104.10
+  servername: www.anthropic.com
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888885
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #6'
+  network: tcp
+  port: '443'
+  server: 160.79.104.10
+  servername: www.anthropic.com
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888886
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #7'
+  network: tcp
+  port: '443'
+  server: 160.79.104.10
+  servername: www.anthropic.com
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888887
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #8'
   network: tcp
   port: '443'
   server: 160.79.104.10
@@ -9,6 +89,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '防范境外势力渗透 #9'
+  network: tcp
+  port: '443'
+  server: 160.79.104.10
+  servername: www.anthropic.com
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888889
 - name: DE1｜机房｜低风险
   password: aa98121d-728a-437c-a84f-99feb82a467f
   port: 21118
@@ -846,6 +936,94 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
+- name: 4🍓@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.186
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 5🍓@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.196
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 🍓97@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.204
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 🍓95@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.205
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 🍓98@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.206
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 🍓92@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.207
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 3🍓@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.208
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 🍓99@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.209
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 🍓93@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.210
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 🍓94@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.211
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 🍓100@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.222
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
 - name: 🍓41@oneclickvpnkeys
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
@@ -858,6 +1036,14 @@ proxies:
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.227
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 2🍓@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.231
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
@@ -1018,13 +1204,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🏠42@oneclickvpnkeys
-  password: dongtaiwang.com
-  port: 13377
-  server: www.838491.xyz
-  sni: www.838491.xyz
-  tls: false
-  type: hysteria2
 - name: telegram @mtmvpn
   obfs: salamander
   obfs-password: 2a7e8084206388f4
@@ -1068,6 +1247,16 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
+- name: IPv4@proxy_kafee
+  obfs: salamander
+  obfs-password: OzJ10Bk1Z9MfaTDFAgDX0HldGsMiI7C2
+  password: r7386498464aq
+  port: 443
+  server: vids.jibiji.store
+  skip-cert-verify: true
+  sni: bts.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
@@ -1088,6 +1277,20 @@ proxies:
   server: 80.66.81.78
   skip-cert-verify: false
   sni: tunel1.washing.help
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  fingerprint: chrome
+  name: best_internet_iran
+  obfs: salamander
+  obfs-password: 6b95esw2d7h3r7kl
+  password: sm6wj2kn4v412om3
+  port: 33027
+  server: nf.easyiran.org
+  sni: nf.easyiran.org
   tls: false
   type: hysteria2
 - name: 🇩🇪@V2raybazi
