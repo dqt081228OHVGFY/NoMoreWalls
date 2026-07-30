@@ -35,6 +35,14 @@ proxies:
   sni: 079c035a-t5bb40-t6tn6w-jjv2.hk1.hyhuawei.com
   tls: false
   type: hysteria2
+- name: 🇭🇰香港
+  password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
+  port: 443
+  server: 82.47.32.31
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
