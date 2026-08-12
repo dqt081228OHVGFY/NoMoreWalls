@@ -144,10 +144,11 @@ proxies:
   sni: de.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- name: 德国
+- name: 🎗️70@oneclickvpnkeys
   password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
   port: 443
   server: node-degame.bangboonet.ru
+  skip-cert-verify: true
   sni: node-degame.bangboonet.ru
   tls: false
   type: hysteria2
@@ -195,6 +196,42 @@ proxies:
   port: 443
   server: 87.120.84.189
   sni: de1.apexvpn.space
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 🇫🇮141127 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: mtg2vchyir6la3et
+  password: 3ff7b2e75ce84d05ae16572b60a9b707
+  port: 52021
+  server: assets.gateway-stream.com
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 🇫🇮141128 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 1wcfqg6gwoyxlplo
+  password: 3ff7b2e75ce84d05ae16572b60a9b707
+  port: 52022
+  server: assets.gateway-stream.com
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 🇫🇮141125 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: detgimgm8qh8i2g2
+  password: 3ff7b2e75ce84d05ae16572b60a9b707
+  port: 52023
+  server: assets.gateway-stream.com
+  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
 - alpn:
