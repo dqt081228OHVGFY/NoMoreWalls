@@ -92,7 +92,6 @@ hysteria2://3a17ce52-4547-45aa-9820-a7d03ad5faca@45.86.74.193:443?sni=media.embr
 hysteria2://549766c3-fa5f-471e-8031-ffc1f8d5064f@212.34.137.105:443?insecure=1&sni=shorts.blog-forme.ru#%40OutlineReleasedKey%20%233
 hysteria2://549766c3-fa5f-471e-8031-ffc1f8d5064f@94.183.164.119:24433?fp=chrome&sni=lakes.blog-forme.ru#%40OutlineReleasedKey%20%234
 hysteria2://549766c3-fa5f-471e-8031-ffc1f8d5064f@guide.blog-forme.ru:443?#%40OutlineReleasedKey%20%235
-hysteria2://54d2f622-fd71-4f5f-8813-832b68f4ca3b@104.165.205.42:8443?sni=speedtestmark.com#%40vpnsal
 hysteria2://5ictxgawam84vgrp@109.70.74.213:2098?insecure=0&sni=109.70.74.213&obfs=salamander&obfs-password=7922smqtd5qm70fu#Telegram%20%20%E2%9A%9C%EF%B8%8FJoin%20-%3E%20%40tik7net_v...
 hysteria2://6aab8efdf13945829ae3699c342be406@31.76.80.69:443?insecure=0&sni=fiproxy1.lockdwn.com&obfs=salamander&obfs-password=uw9b2qq5rx#Telegram%3A%40v2rayng3
 hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@18.143.176.12:443?insecure=1&sni=www.bing.com#%F0%9F%87%B8%F0%9F%87%AC214601%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/v...
@@ -180,5 +179,5 @@ vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.18.208:54857?allowInsecure=0
 anytls://ae74dd32-c336-4be4-9c15-f6108292b3e5@us1.anliangjifei.top:12053?security=none&type=tcp&allowInsecure=1&sni=us1.anliangjifei.top&insecure=1&udp=1#US10%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
 anytls://fd5473ae-4119-4e68-acf5-f0df386c1758@jp.iij.sakura.baipiao0721-dns78655.eu:8443?security=none&type=tcp&alpn=h2&allowInsecure=1&sni=gw.alicdn.com&fp=chrome&udp=1&insecure=1#JP1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
 anytls://be8cc8f6-0c6a-11f0-a5a3-f23c93141fad@ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com:8300?security=none&type=tcp&allowInsecure=1&sni=ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com&fp=chrome&udp=1&insecure=1#HK70%EF%BD%9C%E5%AE%B6%E5%AE%BD%EF%BD%9C%E9%9D%9E%E5%B8%B8%E5%AE%89%E5%85%A8
-anytls://fd5473ae-4119-4e68-acf5-f0df386c1758@us-sje.baipiao0721-dns78655.eu:18443?security=none&type=tcp&alpn=h2&allowInsecure=1&sni=gw.alicdn.com&fp=chrome&udp=1&insecure=1#US1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
 anytls://fd5473ae-4119-4e68-acf5-f0df386c1758@hkt-ddns.baipiao0721-dns78655.eu:18443?security=none&type=tcp&alpn=h2&allowInsecure=1&sni=gw.alicdn.com&fp=chrome&udp=1&insecure=1#HK1%EF%BD%9C%E5%AE%B6%E5%AE%BD%EF%BD%9C%E9%9D%9E%E5%B8%B8%E5%AE%89%E5%85%A8
+anytls://fd5473ae-4119-4e68-acf5-f0df386c1758@us-sje.baipiao0721-dns78655.eu:18443?security=none&type=tcp&alpn=h2&allowInsecure=1&sni=gw.alicdn.com&fp=chrome&udp=1&insecure=1#US1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
