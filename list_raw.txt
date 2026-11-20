@@ -81,11 +81,11 @@ hysteria2://46a64503-b76f-45b4-9948-6bac86e8d29e@my.xn--ehqa22b.site:21897?insec
 hysteria2://46a64503-b76f-45b4-9948-6bac86e8d29e@de.xn--ehqa22b.site:21927?insecure=1&sni=de.xn--ehqa22b.site#DE43%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
 hysteria2://46a64503-b76f-45b4-9948-6bac86e8d29e@jp.xn--ehqa22b.site:21949?insecure=1&sni=jp.xn--ehqa22b.site#JP21%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
 hysteria2://46a64503-b76f-45b4-9948-6bac86e8d29e@my.xn--ehqa22b.site:21695?insecure=1&sni=my.xn--ehqa22b.site#MY19%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@13.184.166.19:443?insecure=1#%F0%9F%87%BA%F0%9F%87%B216%40exclavevpn
+hysteria2://gG1JyjbJgDmEMvdTgcD9wVOS@35.221.91.82:443?sni=www.microsoft.com#%20%F0%9F%87%AF%F0%9F%87%B5%2020%40exclavevpn
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.213.89.22:443?insecure=1&sni=vk.com#%F0%9F%87%BA%F0%9F%87%B8139909%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/S...
+hysteria2://yjg6ygy6u97387j2@tjzx49io.zibayeman.com:31848?sni=tjzx49io.zibayeman.com&obfs=salamander&obfs-password=yew4ada1rrbq11fq#%F0%9F%87%B8%F0%9F%87%AA220314%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/L...
 hysteria2://23c82941-70f4-4381-90db-bd28e9a902e9@201.8.71.59:443?sni=steel7.hadsvpn.com#%40OutlineReleasedKey
 hysteria2://23c82941-70f4-4381-90db-bd28e9a902e9@steel7.hadsvpn.com:443?#%40OutlineReleasedKey%20%231
-hysteria2://2d399e38-245c-4f07-abf2-cfce7397ba9c@31.76.106.92:8443?sni=va.stream-room.com#%F0%9F%94%B99%40oneclickvpnkeys
 hysteria2://3a17ce52-4547-45aa-9820-a7d03ad5faca@45.86.74.193:443?sni=media.embrofree.org#%F0%9F%94%B971%40oneclickvpnkeys
 hysteria2://549766c3-fa5f-471e-8031-ffc1f8d5064f@212.34.137.105:443?insecure=1&alpn=h3&sni=shorts.blog-forme.ru#%40OutlineReleasedKey%20%232
 hysteria2://549766c3-fa5f-471e-8031-ffc1f8d5064f@212.34.137.105:443?insecure=1&sni=shorts.blog-forme.ru#%40OutlineReleasedKey%20%234
@@ -175,8 +175,8 @@ https://38.247.141.135:443
 https://64.98.50.100:443
 vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@mx001.zestapp778.com:19167?allowInsecure=0&sni=mx001.zestapp778.com&fp=chrome&security=tls#US_speednode_0042
 vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.18.208:54857?allowInsecure=0&sni=us001.zestapp778.com&fp=firefox&security=tls#US_speednode_0043
-anytls://fd5473ae-4119-4e68-acf5-f0df386c1758@jp.iij.sakura.baipiao0721-dns78655.eu:8443?security=none&type=tcp&alpn=h2&allowInsecure=1&sni=gw.alicdn.com&fp=chrome&udp=1&insecure=1#JP1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
-anytls://fd5473ae-4119-4e68-acf5-f0df386c1758@hkt-ddns.baipiao0721-dns78655.eu:18443?security=none&type=tcp&alpn=h2&allowInsecure=1&sni=gw.alicdn.com&fp=chrome&udp=1&insecure=1#HK1%EF%BD%9C%E5%AE%B6%E5%AE%BD%EF%BD%9C%E9%9D%9E%E5%B8%B8%E5%AE%89%E5%85%A8
-anytls://be8cc8f6-0c6a-11f0-a5a3-f23c93141fad@ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com:8300?security=none&type=tcp&allowInsecure=1&sni=ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com&fp=chrome&udp=1&insecure=1#HK70%EF%BD%9C%E5%AE%B6%E5%AE%BD%EF%BD%9C%E9%9D%9E%E5%B8%B8%E5%AE%89%E5%85%A8
 anytls://fd5473ae-4119-4e68-acf5-f0df386c1758@us-sje.baipiao0721-dns78655.eu:18443?security=none&type=tcp&alpn=h2&allowInsecure=1&sni=gw.alicdn.com&fp=chrome&udp=1&insecure=1#US1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
+anytls://be8cc8f6-0c6a-11f0-a5a3-f23c93141fad@ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com:8300?security=none&type=tcp&allowInsecure=1&sni=ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com&fp=chrome&udp=1&insecure=1#HK70%EF%BD%9C%E5%AE%B6%E5%AE%BD%EF%BD%9C%E9%9D%9E%E5%B8%B8%E5%AE%89%E5%85%A8
 anytls://ae74dd32-c336-4be4-9c15-f6108292b3e5@us1.anliangjifei.top:12053?security=none&type=tcp&allowInsecure=1&sni=us1.anliangjifei.top&insecure=1&udp=1#US10%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
+anytls://fd5473ae-4119-4e68-acf5-f0df386c1758@hkt-ddns.baipiao0721-dns78655.eu:18443?security=none&type=tcp&alpn=h2&allowInsecure=1&sni=gw.alicdn.com&fp=chrome&udp=1&insecure=1#HK1%EF%BD%9C%E5%AE%B6%E5%AE%BD%EF%BD%9C%E9%9D%9E%E5%B8%B8%E5%AE%89%E5%85%A8
+anytls://fd5473ae-4119-4e68-acf5-f0df386c1758@jp.iij.sakura.baipiao0721-dns78655.eu:8443?security=none&type=tcp&alpn=h2&allowInsecure=1&sni=gw.alicdn.com&fp=chrome&udp=1&insecure=1#JP1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9

@@ -103,6 +103,13 @@ proxies:
   sni: jp.xn--ehqa22b.site
   tls: false
   type: hysteria2
+- name: ' 🇯🇵 20@exclavevpn'
+  password: gG1JyjbJgDmEMvdTgcD9wVOS
+  port: 443
+  server: 35.221.91.82
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 🇯🇵 日本|@ripaojiedian
   network: ws
