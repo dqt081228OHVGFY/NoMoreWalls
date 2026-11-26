@@ -759,6 +759,13 @@ proxies:
   sni: my.xn--ehqa22b.site
   tls: false
   type: hysteria2
+- name: 🔰66@oneclickvpnkeys
+  password: 04920673-035c-410d-94e4-5b1469d3fb6f
+  port: 42848
+  server: 91.211.27.231
+  sni: 171.22.183.158
+  tls: false
+  type: hysteria2
 - name: 🇺🇸 24@exclavevpn
   obfs: salamander
   obfs-password: re61ep4ancwplwh8
@@ -789,13 +796,6 @@ proxies:
   password: 04920673-035c-410d-94e4-5b1469d3fb6f
   port: 42848
   server: 171.22.183.158
-  sni: 171.22.183.158
-  tls: false
-  type: hysteria2
-- name: 🔰66@oneclickvpnkeys
-  password: 04920673-035c-410d-94e4-5b1469d3fb6f
-  port: 42848
-  server: 91.211.27.231
   sni: 171.22.183.158
   tls: false
   type: hysteria2
@@ -879,6 +879,18 @@ proxies:
   sni: bgsg2.hikigo.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '@VPsave #2'
+  obfs: salamander
+  obfs-password: kydqninqtcdomlcb
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 40205
+  server: a1dgus.supertoolify.com
+  skip-cert-verify: true
+  sni: psstatic.cdn.bcebos.com
+  tls: false
+  type: hysteria2
 - name: 🆓69@oneclickvpnkeys
   obfs: salamander
   obfs-password: re61ep4ancwplwh8
@@ -945,6 +957,22 @@ proxies:
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
   server: 18.143.176.12
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 🇰🇷KR-🚀@VPNine1
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 43.201.31.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 🇸🇬SG-🚀@VPNine1
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 54.255.246.31
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -1078,7 +1106,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '@VPsave #2'
+- name: '@VPsave #3'
   password: c358d323-c2c7-4457-bfdb-dd736ba16d38
   port: 443
   server: 177.3.252.187
@@ -1097,7 +1125,7 @@ proxies:
   sni: tomsk.gosgenarchive.com
   tls: false
   type: hysteria2
-- name: '@VPsave #3'
+- name: '@VPsave #4'
   password: d0975db4-e8c8-41f7-a5f3-a3d1d432e499
   port: 443
   server: 194.93.61.120
@@ -1120,6 +1148,13 @@ proxies:
   server: 50.7.38.243
   skip-cert-verify: true
   sni: promo.betust.net
+  tls: false
+  type: hysteria2
+- name: '@VPsave #5'
+  password: d7121b33-e335-4921-bb00-4c0b157e7fc1
+  port: 443
+  server: r7m4.scan-cdn.com
+  sni: r7m4.scan-cdn.com
   tls: false
   type: hysteria2
 - name: برای اتصال دائمی جوین شو🦠 Tele...
