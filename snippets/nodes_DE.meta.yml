@@ -144,6 +144,16 @@ proxies:
   sni: de.xn--ehqa22b.site
   tls: false
   type: hysteria2
+- name: 'Telegram@vpnjey #9'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: vpNJEy
+  port: 36264
+  server: 179.61.138.145
+  skip-cert-verify: true
+  sni: de2.jey.cc.cd
+  tls: false
+  type: hysteria2
 - name: DE_speednode_0003
   password: None
   port: 443
